@@ -14,3 +14,5 @@ VOLUME /repo
 VOLUME /ssh
 
 ENTRYPOINT ["/entrypoint.sh"]
+
+ENV INTERVAL=$INTERVAL
