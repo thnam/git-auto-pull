@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-mkdir /root/.ssh && cp /ssh/* /root/.ssh && crond -f
+mkdir -p /root/.ssh && cp /ssh/* /root/.ssh && crond -f
